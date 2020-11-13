@@ -1,2 +1,2 @@
 # Blackjack
- My interactive, simple Blackjack game!
+ My simple, single-page, interactive Blackjack game! Please enjoy!
