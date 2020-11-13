@@ -1,0 +1,154 @@
+body {
+    /* Old browsers */
+    background: #006400;
+    /*Newer browsers*/
+    background: radial-gradient(ellipse at center, #1d9325 0%,#17752d 57%,#024d02 100%);
+    margin: 0 auto;
+    font-family: "Montserrat", "Avenir";
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background: #008000;
+    margin: 0;
+}
+
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: #008000;
+}
+
+.wins {
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: #008000;
+    letter-spacing: 1px;
+    font-size: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: #008000;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3;
+    -webkit-transition: all 0.3s; /*Safari browser can use transition code*/
+    -moz-transition: all 0.3s; /*Firefox browser can use transition code*/
+    outline: none; /*No blue outline on clicked button*/
+    
+}
+
+button:hover {
+    color: white;
+    background: #008000;
+}
+
+.message {
+    width: 30%;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.empty {
+    width: 120px;
+    height: 180px;
+    border:10px solid white;
+    border-radius: 4px;
+    background: #810202;
+    display: inline-block;
+    margin:  auto;
+    vertical-align:top; /*maintains card alignment once content is added*/
+    box-sizing: border-box; /*prevent enlargement of cards*/
+    padding: 35px;
+}
+
+#sides {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    font-weight: 700;
+    font-size: 35px;
+    
+     
+}
+
+#space {
+    width: 20%;
+    display: inline-block;
+}
+
+#hitstand {
+    position: relative;
+    background: none;
+    color: white;
+    outline: none;
+    font-size: inherit;
+    top: 200px;
+    text-align: center;
+}
+
+.hit {
+    background: white;
+}
+
+.stand  {
+    background: white;
+}
+
+#space1 {
+    width: 5%;
+    display: inline-block;
+}
+
+#score {
+    position: relative;
+    background: none;
+    color: #008000;
+    outline: none;
+    font-size: inherit;
+    top: 170px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+}
+
+.score1 {
+    display: inline-block;
+    border-radius: 4px;
+    background: white;
+    padding: 3px;
+}
+
+.score2 {
+    display: inline-block;
+    border-radius: 4px;
+    background: white;
+    padding: 3px;
+}
+
+#space2 {
+    width: 30%;
+    display: inline-block;
+}
+
+.extraCard {
+    margin-left: 11px;
+    margin-top:  1px;
+}
+
+/*align icons*/
+#iconSpace {
+    width: 1%;
+    display: inline-block;
+}

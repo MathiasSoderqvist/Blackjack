@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blackjack</title>
+    <link href="blackjack.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1><img src="https://img.icons8.com/doodle/48/000000/clubs.png"/> <span id="iconSpace"></span> Mathias' <span id="iconSpace"></span><img src="https://img.icons8.com/fluent/48/000000/diamonds.png"/>
+        <br>
+        <img src="https://img.icons8.com/fluent/48/000000/like.png"/> Blackjack <img src="https://img.icons8.com/fluent/48/000000/spades.png"/>
+    </h1>
+    <div id="stripe">
+        <button id="reset">New Game</button>
+        <span class="message"></span>
+        <span class="wins">Wins: 0</span>
+    </div>
+
+    <div id="sides">
+            <div class="empty dealer card1"></div>
+            <div class="empty dealer card2"></div>
+            <span id="space"></span>
+            <div class="empty player card3"></div>
+            <div class="empty player card4"></div>
+    </div>
+
+    <div id="score">
+        <div class ="score1">House Score: ?</div>
+        <span id="space2"></span>
+        <div class ="score2">Player Score: ?</div>
+    </div>
+
+    <div id="hitstand">
+        <button class="hit">Hit me!</button>
+        <span id="space1"></span>
+        <button class="stand">I'll Stand</button>
+    </div>
+    <script type="text/javascript" src="blackjack.js"></script>
+</body>
+</html>
